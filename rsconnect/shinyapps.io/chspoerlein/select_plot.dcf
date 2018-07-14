@@ -1,0 +1,10 @@
+name: select_plot
+title:
+username:
+account: chspoerlein
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 375171
+bundleId: 1467717
+url: https://chspoerlein.shinyapps.io/select_plot/
+when: 1530866240.73516
