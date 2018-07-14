@@ -60,8 +60,18 @@ ui <- fluidPage(
                      "Level of aggregation:",
                      choices = c("Yearly" = "mig_year",
                                  "5-Years" = "year"),
-                     selected="year")
-      ),
+                     selected="year"),
+      
+      br(),
+      
+      helpText(a(href="https://github.com/chspoerlein/select_plot/blob/master/README.md", target="_blank", "What am I seeing here?")),
+      helpText(a(href="https://github.com/chspoerlein/select_plot/blob/master/app.R", target="_blank", "View code")),
+      helpText(a(href="https://www.uni-bamberg.de/en/sozstruk/team/team/dr-rer-pol-christoph-spoerlein/", target="_blank", "Author"))
+              
+        ),
+      
+
+      
       
       mainPanel(
         #textOutput("intro"),
